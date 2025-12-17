@@ -12,7 +12,7 @@ Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead.
 ```
 or even repository addition failures.
 
-## ✅ Solution
+##  Solution
 
 This project provides a **patched version of Katoolin** (or a companion fix script) that replaces the deprecated `apt-key` usage with the modern, secure method:
 
@@ -20,7 +20,7 @@ This project provides a **patched version of Katoolin** (or a companion fix scri
 - Saves it as `/etc/apt/trusted.gpg.d/kali-archive-keyring.gpg`
 - Maintains full compatibility with current APT standards
 
-##  Installation
+##  How to run
 
 1. **Clone this repository:**
    ```bash
